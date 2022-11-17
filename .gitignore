@@ -1,0 +1,7 @@
+.env/
+venv/
+.venv/
+.vagrant/
+.myvenv/
+__pycache__/
+.vagrant/
