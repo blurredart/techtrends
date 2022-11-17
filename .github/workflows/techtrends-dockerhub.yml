@@ -24,7 +24,7 @@ jobs:
         uses: docker/build-push-action@v3.2.0
         with:
           context: ./project
-          file: Dockerfile
+          file: ./project/Dockerfile
           platforms: linux/amd64
           push: true
           tags: dockerdox1/techtrends:latest
