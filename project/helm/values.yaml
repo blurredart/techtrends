@@ -22,9 +22,7 @@ resources:
     cpu: 500m
     memory: 128Mi
 
-containerPorts:
-  port: 3111
-  protocol: TCP
+containerPort: 3111
 
 livenessProbe:
   path: /healthz
